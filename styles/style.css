@@ -1,0 +1,77 @@
+/* header area style  */
+.bg-color {
+    background: rgba(29, 29, 29, 0.7);
+    border-radius: 5px;
+}
+
+.slider-caption {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    text-align: center;
+    padding: 0 5%;
+}
+
+.slider-caption h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.slider-caption p {
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+.register-btn {
+    color: #289BDE;
+    background-color: #fff;
+    border: #289BDE solid 1px;
+    border-radius: 5px;
+}
+
+.register-btn:hover {
+    color: #fff;
+    background-color: #289BDE;
+}
+
+.gstarted-btn {
+    font-size: 1rem;
+}
+
+/* course area style  */
+.course-area h1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.course-area p {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.course-invisible {
+    display: none;
+}
+
+.view-all-btn {
+    display: block;
+}
+
+.about {
+    background-color: #F4FAFD;
+}
+
+.info {
+    padding: 0 0;
+}
+
+.info p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.info p span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}

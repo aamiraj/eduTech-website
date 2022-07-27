@@ -1,0 +1,58 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // small devices (portrait phones, 575px and down) 
+@media (max-width: 575px) {
+    
+}*/
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .slider-caption {
+        padding: 0 10%;
+    }
+
+    .slider-caption h3 {
+        font-size: 2rem;
+    }
+
+    .slider-caption p {
+        font-size: 0.8rem;
+    }
+
+    .gstarted-btn {
+        font-size: 1rem;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .slider-caption {
+        padding: 0 15%;
+    }
+
+    .slider-caption h3 {
+        font-size: 3.35rem;
+    }
+
+    .slider-caption p {
+        font-size: 1rem;
+    }
+
+    .gstarted-btn {
+        font-size: 1.2rem;
+    }
+
+    .course-invisible {
+        display: block;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
