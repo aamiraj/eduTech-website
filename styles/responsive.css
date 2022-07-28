@@ -63,6 +63,10 @@
     .about-inner .about-body {
         width: 50%;
     }
+
+    .successful-student {
+        width: 49%;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -117,6 +121,11 @@
 
     .join-body .join-text {
         text-align: left;
+    }
+
+    /* successful student section  */
+    .successful-student {
+        width: 24.5%;
     }
 }
 
