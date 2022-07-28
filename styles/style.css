@@ -77,12 +77,15 @@
     display: block;
 }
 
+/* about institute section */
 .about {
     background-color: #F4FAFD;
+}
+
+.about-inner {
+    flex-direction: column;
 }
 
 .info {
     padding: 0 0;
 }
-
-/* about institute section */

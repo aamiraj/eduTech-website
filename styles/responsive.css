@@ -50,6 +50,19 @@
     .course-body span {
         font-size: .9rem;
     }
+
+    /* about institute section  */
+    .about-inner {
+        flex-direction: row;
+    }
+
+    .about-inner img {
+        width: 50%;
+    }
+
+    .about-inner .about-body {
+        width: 50%;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
