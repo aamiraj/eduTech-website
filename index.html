@@ -264,8 +264,8 @@
 
                     <div class="about-body p-2">
                         <div class="item-area mt-4 about-institute">
-                            <h1 class="fs-3 fw-semibold">Explore The elearning Institute</h1>
-                            <p class="fs-6 fw-normal">There are many variations of passages of Lorem Ipsum available,
+                            <h1 class="fw-semibold">Explore The elearning Institute</h1>
+                            <p class="fw-normal">There are many variations of passages of Lorem Ipsum available,
                                 but the majority have
                                 suffered alteration in some form, by injected humour, or randomised words which...
                                 <!-- don't
@@ -302,18 +302,82 @@
 
         <!-- ready to join section  -->
         <section class="container">
-            <div class="d-flex flex-column align-items-center mx-auto my-3 bg-primary text-white rounded-1">
-                <div class="item-area text-center mt-4 ">
+            <div class="d-flex join-body align-items-center mx-auto my-3 py-md-5 bg-primary text-white rounded-1">
+                <div class="item-area join-text px-lg-5 mt-4 ">
                     <h1 class="fw-semibold">Ready To Join?</h1>
                     <p class="fw-normal">It is a long established fact that a reader will be distracted by the
                         readable content of a page
                         when
                         looking at its layout.</p>
                 </div>
-                <div>
-                    <button class="btn register-btn mt-2 mb-4 my-sm-0" type="submit">Registration</button>
+                <div class="mx-lg-5">
+                    <button type="button" class="btn register-btn mt-2 mb-4 my-sm-0" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Registration</button>
                 </div>
 
+            </div>
+            <!-- modal section -->
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button> -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Registration Form</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Your Email address">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="New Password">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Confirm Password">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                data-bs-toggle="modal">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModalToggle2" aria-labelledby="exampleModalToggleLabel2" tabindex="-1"
+                aria-hidden="true" style="display: none;">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Congratulations! You have signed up to Pro Edu.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>

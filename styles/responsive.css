@@ -108,6 +108,16 @@
     .view-all-btn {
         display: none;
     }
+
+    /* ready to join section  */
+    .join-body {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .join-body .join-text {
+        text-align: left;
+    }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
