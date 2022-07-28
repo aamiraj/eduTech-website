@@ -127,6 +127,19 @@
     .successful-student {
         width: 24.5%;
     }
+
+    .feedback {
+        flex-direction: row;
+    }
+
+    .feedback-item {
+        width: 49%;
+    }
+
+    /* company  */
+    #company {
+        display: block;
+    }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */

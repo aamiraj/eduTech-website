@@ -1,3 +1,10 @@
+/* font-family poppins used  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* header area style  */
 .bg-color {
     background: rgba(29, 29, 29, 0.7);
@@ -97,4 +104,22 @@
 
 .join-body .join-text {
     text-align: center;
+}
+
+/* feedback section  */
+.feedback {
+    flex-direction: column;
+}
+
+.student>h5 {
+    font-size: 0.9rem;
+}
+
+.student>h6 {
+    font-size: 0.8rem;
+}
+
+/* company  */
+#company {
+    display: none;
 }
