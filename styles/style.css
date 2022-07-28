@@ -13,10 +13,20 @@
     padding: 0 5%;
 }
 
+.slider-caption>h3 {
+    font-size: 1rem;
+}
+
 .slider-caption>p {
     font-size: 0.6rem;
     display: none;
 }
+
+.gstarted-btn {
+    font-size: 0.8rem;
+}
+
+
 
 .slider-caption>button {
     font-size: 0.75rem;
@@ -35,6 +45,30 @@
 }
 
 /* course area style  */
+.item-area>h1 {
+    font-size: 1rem;
+}
+
+.item-area>p {
+    font-size: 0.8rem;
+}
+
+.course-card {
+    flex-direction: column;
+}
+
+.course-body .course-title {
+    font-size: .8rem;
+}
+
+.course-body .course-text {
+    font-size: .7rem;
+}
+
+.course-body span {
+    font-size: .9rem;
+}
+
 .item-invisible {
     display: none;
 }
